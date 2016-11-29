@@ -9,3 +9,8 @@ services:
         arguments: [~, MMM\Bundle\MainBundle\Entity\Advert, ~]
         tags:
             - { name: sonata.admin, manager_type: orm, label: Advert }
+    admin.category:
+        class: MMM\Bundle\MainBundle\Admin\CategoryAdmin
+        arguments: [~, MMM\Bundle\MainBundle\Entity\Category, ~]
+        tags:
+            - { name: sonata.admin, manager_type: orm, label: Category }
