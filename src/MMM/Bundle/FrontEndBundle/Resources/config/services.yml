@@ -1,0 +1,4 @@
+services:
+#    mmm_front_end.example:
+#        class: MMM\Bundle\FrontEndBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]
