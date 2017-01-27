@@ -1,3 +1,7 @@
+mmm_front_end:
+    resource: "@MMMFrontEndBundle/Resources/config/routing.yml"
+    prefix:   /
+
 mmm_main:
     resource: "@MMMMainBundle/Resources/config/routing.yml"
     prefix:   /
